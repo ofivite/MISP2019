@@ -1,3 +1,4 @@
+import math
 def AMS(s, b, br=10.0):
     """ Approximate Median Significance defined as:
         AMS = sqrt(
@@ -10,4 +11,4 @@ def AMS(s, b, br=10.0):
         print('radicand is negative. Exiting')
         return -1
     else:
-return math.sqrt(radicand)
+        return math.sqrt(radicand)
