@@ -4848,7 +4848,7 @@ BU_eta_Cjp=16
 parameters:
 [boosting: gbdt]
 [objective: regression]
-[metric: binary_logloss]
+[metric: ]
 [tree_learner: serial]
 [device_type: cpu]
 [data: ]
